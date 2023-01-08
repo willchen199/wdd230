@@ -3,6 +3,6 @@ let year = date.getFullYear();
 
 document.querySelector('.year').innerHTML = '&copy;'+ year;
 
-let currentate = document.lastModified
+let currentdate = document.lastModified;
 
-document.querySelector('span').textContent =`Last Updated: ${currentate}`;
+document.querySelector('.Update').textContent =`Last Updated: ${currentdate}`;
