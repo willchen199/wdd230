@@ -44,12 +44,14 @@ footer{
     justify-items: center;
 }
 
-#third{
-    color: red;
-    font-size: 40px;
+
+
+.name{
+    color: white;
+    font-size: 50px;
 }
 
-.years{
-    color: black;
-    font-size: 50px;
+.update{
+    color: blue;
+    font-size: 40px;
 }
