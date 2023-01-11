@@ -18,6 +18,9 @@ header {
     color: white;
 
 }
+#abcd{
+    font-size: 40px;
+}
 #whole{
     max-width: 1400px;
     margin: 0 auto;
