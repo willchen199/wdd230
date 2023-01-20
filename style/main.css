@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 
 
 a{
-    color:red
+    color:red;
+    
 }
 
 header {
@@ -14,6 +16,7 @@ header {
     border-radius: 1rem;
     align-items: center;
     justify-items: center;
+ 
 }
 .abc{
     margin:auto;
