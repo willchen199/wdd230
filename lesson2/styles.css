@@ -27,8 +27,9 @@ section {
     color: purple;
     background-color: gold;
     padding: 10px;
-    margin: 10px 0;
-    border-radius: 50px;
+    margin: 10px;
+    border-radius: 55px;
+    
 }
 
 h1{
@@ -41,7 +42,7 @@ a {
 
 img {
     border: 5px solid blanchedalmond;
-    margin: 35px 0;
+    margin: 30px 0;
     width: 80%
 }
 
