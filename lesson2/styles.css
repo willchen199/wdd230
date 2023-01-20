@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+header div {
+    font-size: 2em;
+    background-color: rebeccapurple;
+    padding: 10px;
+    margin: 40px 5;
+}
+
+section {
+    text-align: center;
+    color: black;
+    background-color: gold;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+a {
+    color: rebeccapurple;
+}
+
+img {
+    border: 5px solid wheat;
+    margin: 25px;
+    width: 80%
+}
+
+
+p {
+    padding: 10 80px;
+}
+
+
+footer {
+    background-color: lightgray;
+}
+
+footer div {
+    text-align: center;
+    padding: 10px 0px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        max-width: 350px;
+        width: 60%
+    }
+    .part3{
+        grid-column-start: 1;
+        grid-column-end: 3 ;
+    
+    }
+    .part3 img {
+        max-width: 550px; 
+        width: 200%;
+       
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .part1{
+        grid-column: 1/2;
+    }
+    .part2{
+        grid-column: 2/3;
+    }
+    .part3{
+        grid-column: 3/4;
+    }
+    .part3 img{
+        max-width: 350px;
+        width: 60%
+    }
+}

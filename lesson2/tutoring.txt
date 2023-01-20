@@ -1,0 +1,6 @@
+Ways to identify an HTML object
+* Class
+* ID
+* interchangeable; doesn't matter whether you use classes or ids
+* IDs are selected by preceding it with a hash (#)
+* Classes are identifyied by preceding it with a period (.)
