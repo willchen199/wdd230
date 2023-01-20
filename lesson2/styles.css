@@ -16,7 +16,7 @@ header div {
     font-size: 2em;
     background-color: rebeccapurple;
     padding: 10px;
-    margin: 30px 5;
+    margin: 30px 0;
     text-align: center;
     color: blanchedalmond;
     
@@ -55,7 +55,7 @@ footer {
     background-color: rebeccapurple;
     color: blanchedalmond;
     padding: 10px;
-    margin: 30px 5;
+    margin: 30px 0;
     text-align: center;
    
    
