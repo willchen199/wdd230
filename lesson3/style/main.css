@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: wheat;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+nav ul li {
+    height: 33%;
+}
+
+
+nav ul {
+    margin: 10px;
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+
+    display: inline;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+
+
+h2,h3{
+    font-family: 'Roboto Slab', serif;
+    color: cornflowerblue;
+    padding: 10px;
+    
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    color: crimson;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+nav {
+    background-color: firebrick;
+    height: 150px;
+    width: 100%;
+}
+
+main{
+    max-width: 100%;
+}
+
+@media screen and (min-width:600px){
+    nav {
+        height: 100px;
+    }
+    
+    nav ul {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li {
+        width: 33%;
+    }
+
+}
+
+
