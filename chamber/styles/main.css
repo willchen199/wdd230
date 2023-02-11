@@ -1,6 +1,4 @@
-.newstyle{
-    background-color: red;
-}
+
 
 /* hamburger menu / responsive menu */
 nav{
@@ -21,7 +19,11 @@ a:first-child{
 .responsive a{
     display:block;
 }
+.midfooter, .largefooter{
+    display: none;
+}
 
+/* Medium (tablet) media query. All styles in here will only apply to tablet views. */
 @media screen and (min-width: 650px){
     a:first-child {
         display: none;
@@ -32,4 +34,15 @@ a:first-child{
     nav{
     flex-direction: row;
     }
+    .footer-bottom {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+
+}
+
+/* Large media query */
+@media screen and (min-width: 1000px){
+
 }

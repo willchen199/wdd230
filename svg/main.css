@@ -1,0 +1,8 @@
+.nice-square {
+    transition: transform 1s;
+
+}
+
+.nice-square:hover {
+    transform: rotate(360deg)
+}
