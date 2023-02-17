@@ -23,6 +23,47 @@ a:first-child{
     display: none;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
+main > div {
+    border: solid black 5px;
+    padding: 100px;
+    /* margin-bottom: 20px; */
+
+}
+.header-top{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.logoheader{
+    grid-column: 1/3;
+}
+.logo-header-img{
+    width: 100%;
+}
+
+.wholetitle{
+    grid-column: 3/5;
+    font-size: 10px;
+}
+.smedia{
+    grid-column: 5/6;
+}
+.navigation{
+    grid-column: 6/7;
+}
+.header-top * {
+    /* border: solid black 5px; */
+    
+}
+
+
+
+
 /* Medium (tablet) media query. All styles in here will only apply to tablet views. */
 @media screen and (min-width: 650px){
     a:first-child {
@@ -38,6 +79,15 @@ a:first-child{
         display: grid;
         grid-template-columns: repeat(8, 1fr);
     }
+    .midfooter{
+        display: inline;
+    }
+    .basefooter {
+        display: none;
+    }
+    .largefooter {
+        display: none;
+    }
     
 
 }
@@ -45,4 +95,13 @@ a:first-child{
 /* Large media query */
 @media screen and (min-width: 1000px){
 
+    .basefooter{
+        display: none
+    }
+    .midfooter{
+        display:none
+    }
+    .largefooter{
+        display:block
+    }
 }
