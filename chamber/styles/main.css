@@ -79,6 +79,44 @@ footer{
 }
 
 
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.hero h3{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    
+}
+
+.hero button{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 15px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+main > div {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.weatherflex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 
 
 /* Medium (tablet) media query. All styles in here will only apply to tablet views. */
@@ -255,14 +293,6 @@ footer{
         grid-row: 3/4;
         border: solid black 1px;
         margin: 5px;
-    }
-
-    .hero img{
-        width: 100%;
-    }
-
-    .hero source{
-        width: 100%;
     }
 
 }
