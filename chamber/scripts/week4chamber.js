@@ -42,12 +42,12 @@ async function weatherApi (){
         // Get windspeed
         let windspeed = data.wind.speed;
         console.log(windspeed);
-        document.querySelector('.windspeed').innerHTML=`${windspeed} km/h`;
+        windspeed *= 0.621371192 ;
+        windspeed = Math.round(windspeed)
+        document.querySelector('.windspeed').innerHTML=`${windspeed} M/h`;
 
         //Get windchill
-        let windchill = data.main.feels_like;
-        windchill = (windchill * (9/5)) + 32;
-        windchill = Math.round(windchill);
+        let windchill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
         document.querySelector('.windchill').innerHTML=`${windchill} °F`;
 
         // Get description
