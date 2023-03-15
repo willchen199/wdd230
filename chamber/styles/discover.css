@@ -1,0 +1,27 @@
+.discover-images{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+main {
+    display: block;
+}
+
+
+.discover-images img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 650px){
+
+    
+}
+
+@media screen and (min-width: 1000px){
+   
+    .discover-images{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3,1fr);  
+    }
+    
+}

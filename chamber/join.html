@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join page</title>
+        <link rel="stylesheet" href="../chamber/styles/main.css">
+        <link rel="stylesheet" href="../chamber/styles/join.css">
+        <script defer src="../chamber/scripts/join.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header>
         <h1>Join our Chamber</h1>
@@ -16,9 +22,9 @@
                 <label for="fname">Last Name*:</label>
                 <input id="fname" name="name" required>
                 <label for="title">Business Position Title</label>
-                <input id"title" name"biztitle" patten="(A-Za-z -)+" minlength="7" required>
+                <input id="title" name="biztitle" patten="(A-Za-z -)+" minlength="7" required>
                 <label for="email">Email *:</label>
-                <input id="email" name="email" type"email"
+                <input id="email" name="email" type="email"
                 placeholder="name@domain.com" required>
                 <label for="phone">Cell phone *:</label>
                 <input id="phone" name="phone" type="tel"
@@ -27,11 +33,25 @@
                 <input id="business" name="bizname" required>
                 <label for="member">Entry you Level of membership</label>
                 <div id="radio">
-                    <input id="member" id"one">
-
+                    <input type="radio" name="membership" id="one">
+                    <label for="one">Non-Profit</label>
+                    <input type="radio" name="membership" id="two">
+                    <label for="two">Bronze</label>
+                    <input type="radio" name="membership" id="three">
+                    <label for="three">Silver</label>
+                    <input type="radio" name="membership" id="four">
+                    <label for="four">Gold</label>
                 </div>
                 
-
+                <input type="hidden" name="datetime" id="datetime">
+                <p>NP Membership is for non profit organizations and there is no fee.</p>
+                <p>Bronze Membership (15% discounts on events, 10% discount on advertising, Fee of $50/month)</p>
+                <p>Silver Membership (25% discount on events, 15% discount on advertising, Free participation in the trade fair, Fee of $100/month)</p>
+                <p>Gold Membership (50% discount on events, 50% discount on advertising, Free participation in the trade fair, 5 free featured ads per year, 1 free training per quarter, Fee of $100/month)</p>
+                <p>This memberships have increasing costs as well as increased benefits per level like trainings, advertising (like on the home page spotlights), event discounts, etc.</p>
+                <label for="bizDesc">Business Description:</label>
+                <textarea name="bizDescription" id="bizDesc"></textarea>
+                <button type="submit" id="submit">Join The Chamber </button>
                 
             </form>
 
