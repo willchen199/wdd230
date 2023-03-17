@@ -8,6 +8,12 @@ let month =date.getMonth();
 let months =["January","February","March","April", "May","June","July","August","September","October","November","December"];
 month = months[month];
 
-document.querySelector("#datetime").innerHTML = `${day}, ${month} ${dayofmonth} ${year}`
+document.querySelector("#datetime").innerHTML = `${day}, ${month} ${dayofmonth} ${year}`;
 
-window.open= 
+
+function openWeb(){
+    window.open("https://willchen199.github.io/wdd230/chamber/thanyou.html");
+}
+document.querySelector('#datetime').addEventListener('click',openWeb);
+
+
