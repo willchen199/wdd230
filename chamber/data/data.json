@@ -1,67 +1,67 @@
 {
  "Businesses":  [
         {
-            "name": "placeholder",
-            "address": "placeholder",
-            "phone": "placeholder",
-            "website": "website",
-            "imageul": "placeholder"
+            "name": "Advanced Card System Holdings",
+            "address": "Kowloon east way bay",
+            "phone": "85264424781",
+            "website": "https://www.acs.com.hk/",
+            "imageurl": "https://library.acs.com.hk/images/acs_logo_3.png"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         },
         {
             "name": "placeholder",
             "address": "placeholder",
             "phone": "placeholder",
             "website": "website",
-            "imageul": "placeholder"
+            "imageurl": "placeholder"
         }
     ]
 }

@@ -1,5 +1,3 @@
-
-
 //Hamburger Button JS
 
 const mainnav = document.querySelector(".navigation");
@@ -14,6 +12,9 @@ hambutton.addEventListener("click", ()=>{
 
 let date = new Date();
 let year = date.getFullYear();
+let currentdate1 = document.lastModified;
+
+document.querySelector('.update').textContent = `Last Updated: ${currentdate1}`;
 let day = date.getDay();
 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 day = days[day];
@@ -85,4 +86,10 @@ async function weatherApi (){
 // let currentdate = document.lastModified; this is the lastmofidied last time it change content.
 
 // document.querySelector('.Update').textContent = `Last Updated: ${currentdate}`;
+
+
+
+let currentdate = document.lastModified;
+
+document.querySelector('.Update').textContent = `Last Updated: ${currentdate}`;
 

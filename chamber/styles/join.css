@@ -19,3 +19,6 @@ label, input{
 label{
     margin-top: 20px;
 }
+.join{
+    display: none;
+}
