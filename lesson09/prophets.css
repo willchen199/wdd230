@@ -1,15 +1,17 @@
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+
 }
 
-h1, h2{
+h1 {
     text-align: center;
     color: navy;
 }
-section{
+
+.cards section {
     border: 1px solid navy;
     background-color: lightblue;
     padding: 30px;
@@ -17,7 +19,7 @@ section{
     margin: 20px;
 }
 
-.cards img{
-    width: 90%;
-    box-shadow: 5px 10px 8px 5px #888888;
+.cards img {
+    width: 90%
+
 }
