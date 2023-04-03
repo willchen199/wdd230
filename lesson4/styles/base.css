@@ -5,7 +5,7 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background-color: #e3d7c7;
+    background-color: white;
 }
 
 #join_us1{
@@ -130,7 +130,7 @@ nav h1 {
 
 
 footer h1 {
-    font-size: small;
+    font-size: large;
     color: black;
 }
 
@@ -168,8 +168,9 @@ footer {
 }
 
 .date {
-    color: #ede8dc;
-    margin-top: 30px;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
 }
 
 .social-link {
@@ -259,7 +260,7 @@ footer {
 
 #year {
     font-family: 'Roboto Slab', serif;
-    font-size: 10px;
+    font-size: 20px;
     margin: 15px;
     color: white;
     text-align: center
@@ -422,7 +423,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     justify-content: space-around;
-    color: #0a1256;
+    color: blue;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -443,12 +444,10 @@ input[type='radio']{
     height: 20px;
 }
 
-form input:required{
-    border-left: red solid 6px;
-}
+
 
 form input:required:valid{
-    border-left: green solid 6px;
+    border-left: red solid 8px;
 }
 
 #radio {
@@ -475,7 +474,7 @@ input, textarea{
 input[type='submit']{
     height: 80px;
     border-radius: 10px;
-    background-color: #0f4156;
+    background-color: crimson;
     color: white;
 }
 
@@ -485,7 +484,7 @@ input[type='submit']{
 
 #join_chamber{
     text-align: center;
-    color: #0a1256;
+    color: blue;
     font-family: 'Roboto Slab', serif;
 }
 
