@@ -440,14 +440,25 @@ input{
     height: 40px;
 }
 
+.thanks{
+    
+    font-size: 50px;
+}
+
+.thanksbox{
+    text-align: center;
+    grid-column: 2/3;
+}
 input[type='radio']{
     height: 20px;
 }
 
-
+form input:required{
+    border-left: pink solid 6px;
+}
 
 form input:required:valid{
-    border-left: red solid 8px;
+    border-left: blue solid 6px;
 }
 
 #radio {
@@ -474,7 +485,7 @@ input, textarea{
 input[type='submit']{
     height: 80px;
     border-radius: 10px;
-    background-color: crimson;
+    background-color: red;
     color: white;
 }
 
