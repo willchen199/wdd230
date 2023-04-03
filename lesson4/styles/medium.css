@@ -83,16 +83,16 @@
         grid-row: 3/4;
     }
 
-    #augustageorgia1 {
+    #hongkong1 {
         display: grid;
         width: 100%;
         height: 100%;
     }
 
-    #augustageorgia {
+    #hongkong {
         display: none;
     }
-    #augustageorgia3 {
+    #hongkong3 {
         display: none;
     }
 
