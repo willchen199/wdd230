@@ -22,3 +22,13 @@ label{
 .join{
     display: none;
 }
+
+@media screen and (min-width: 1000px){
+    #join_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.member-info{
+    grid-column: 2/3;
+}
+}

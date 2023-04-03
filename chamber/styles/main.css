@@ -6,6 +6,9 @@ header{
     display: none;
     padding: 15px;
 }
+.navigation a:nth-child(1){
+    display: block;
+}
 
 .ham{
     display:block;
@@ -82,7 +85,8 @@ main > div {
 
 .responsive-img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero{

@@ -1,0 +1,120 @@
+@media only screen and (min-width: 900px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+        font-size: 1.1em;
+    }
+
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    #hero {
+        border: solid black 1px;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        margin: 5px;
+    }
+
+    #events {
+        border: solid black 1px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 5px;
+    }
+
+    #weather {
+        border: solid black 1px;
+        margin: 5px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #news {
+        border: solid black 1px;
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 5px;
+    }
+
+    #join {
+        display: grid;
+        border: solid black 1px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin: 5px;
+    }
+
+    #trolleytransport1 {
+        border: solid black 1px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin: 5px;
+    }
+
+    #kayakingclub2 {
+        border: solid black 1px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+        margin: 5px;
+    }
+
+
+    #historic3 {
+        border: solid black 1px;
+        grid-column: 3/4;
+        grid-row: 3/4;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .spotlights {
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+    #augustageorgia {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #augustageorgia1 {
+        display: none;
+    }
+    #discover{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #canalboat{
+        grid-column:1/2;
+        grid-row: 1;
+    }
+
+    #golf{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #museum{
+        grid-column:3/4;
+        grid-row: 1;
+    }
+
+    #kayaking{
+        grid-column:1/2;
+        grid-row:2;
+    }
+
+    #schurch{
+        grid-column: 2/3;
+        grid-row:2;
+    }
+
+    #days-visits{
+        grid-column: 1/4;
+    }
+}
+

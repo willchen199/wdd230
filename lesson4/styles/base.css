@@ -1,0 +1,568 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #e3d7c7;
+}
+
+#join_us1{
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    color: black
+}
+
+
+h5 {
+    font-family: 'Roboto Slab', serif;;
+    font-size: 25px;
+    color: white;
+    text-align: center
+}
+
+h4 {
+    color: #404f5a;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: white;
+}
+
+h6 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    color: white;
+    text-align: center
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    font-size: 20px;
+    color: navy
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+nav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    display: none;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #afcbdc;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    padding: 7px;
+    width: 100%;
+}
+
+#primaryNav {
+    display: flex;
+    flex-direction: column;
+}
+
+#hamburgerBtn {
+    display: block;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: blue;
+    border-radius: 5px;
+    ;
+}
+
+
+nav h1 {
+    color: #404f5a;
+    padding: 5px;
+}
+
+
+footer h1 {
+    font-size: small;
+    color: black;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+footer {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #a9cfe3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* class selector */
+
+.open a {
+    display: block
+}
+
+.subhead {
+    color: #404f5a;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    color: white;
+
+}
+
+.date {
+    color: #ede8dc;
+    margin-top: 30px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    ;
+    margin-bottom: 50px;
+}
+
+.social-link img {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* id selector */
+
+#logo-link2 {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero {
+    background-color: white;
+    border: solid black 1px;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+}
+
+#events {
+    border: solid black 1px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#weather {
+    border: solid black 1px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#weatherimg {
+    width: 50%;
+}
+
+#join h1 {
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px yellow;
+    height: 50px;
+    padding: 10px;
+
+}
+
+#trolley {
+    width: 50%;
+}
+
+#kayak {
+    width: 50%;
+}
+
+#church {
+    width: 50%;
+}
+
+
+#news {
+    border: solid black 1px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#join {
+    display: none;
+    background-color: white;
+    text-align: center;
+}
+
+#year {
+    font-family: 'Roboto Slab', serif;
+    font-size: 10px;
+    margin: 15px;
+    color: white;
+    text-align: center
+}
+
+#trolleytransport1 {
+    border: solid black 1px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#kayakingclub2 {
+    border: solid black 1px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#historic3 {
+    border: solid black 1px;
+    background-color: white;
+    text-align: center;
+}
+
+#join_us {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #4b6a8d;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#augustageorgia {
+    width: 100%;
+}
+
+#augustaqeorgia1 {
+    width: 100%;
+}
+
+#content {
+    min-height: 100%;
+    display: grid;
+}
+
+#augustageorgia {
+    display: none;
+}
+
+#augustageorgia1 {
+    display: none;
+}
+
+#discover{
+    display:grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto Slab', serif;
+}
+
+#boat{
+    margin: 5px;
+    text-align: center;
+}
+
+#boat-img{
+    display:block;
+    margin:0 auto;
+    width: 75%;
+}
+
+#aisanfood{
+    margin:5px;
+    text-align: center;
+}
+
+#aisanfood-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#disney{
+    margin:5px;
+    text-align: center;
+}
+
+#disney-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%
+}
+
+#kayaking{
+    margin:5px;
+    text-align: center;
+}
+
+#kayaking-img{
+    display: block;
+    margin: 0 auto;
+    width:75%;
+}
+
+#temple{
+    margin:5px;
+    text-align: center;
+}
+
+#temple-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#museum{
+    margin:5px;
+    text-align: center;
+}
+
+#museum-img{
+    display:block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#days-visits{
+    text-align: center;
+}
+
+
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+
+/* JOIN page CSS */
+
+#join_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    color: #0a1256;
+    font-family: 'Roboto Slab', serif;
+}
+
+label, input{
+    display: block;
+    font-size: 1.5em;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input{
+    height: 40px;
+}
+
+input[type='radio']{
+    height: 20px;
+}
+
+form input:required{
+    border-left: red solid 6px;
+}
+
+form input:required:valid{
+    border-left: green solid 6px;
+}
+
+#radio {
+    display: grid;
+    grid-template-columns: 60px 100px;
+    /* align-items: center; */
+}
+
+#radio label, #radio input{
+    margin: 0;
+}
+
+textarea{
+    height: 150px;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px; 
+    background-color: #afcbdc;
+}
+
+input[type='submit']{
+    height: 80px;
+    border-radius: 10px;
+    background-color: #0f4156;
+    color: white;
+}
+
+#membership li{
+    padding: 10px;
+}
+
+#join_chamber{
+    text-align: center;
+    color: #0a1256;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Thank you CSS */
+
+#thanks h1 {
+    color: #0a1256;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#thanks {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/* Directory CSS */
+
+#directory{
+    font-family: 'Roboto Slab', serif;
+}
+
+#directory p{
+    color: #0a1256;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#directory h1, h2{
+    text-align: center;
+    color: white;
+}
+
+.cards section{
+    border: 1px solid #0a1256;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards img{
+    width: 60%;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+#view{
+    text-align: center;
+    font-size: 3em;
+}
+
+#cards, #list{
+    color: #1d288d;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#directory table{
+    width: 85%;
+    margin: 5% auto;
+    font-size: 15px;
+    display: none;
+}
+
+#directory td{
+    padding: 5px;
+    display: block; /*media query use table-cell*/
+}
+
+#directory tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+

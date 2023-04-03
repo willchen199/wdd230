@@ -22,5 +22,28 @@
     border-radius: 5px 5px 0 0;
   }
 
+  .bus-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
 
+  }
+  .img{
+    width: 100%;
+  }
+.table tr{
+  padding: 500px;
+}
+  .table>tr:nth-child(odd){
+    background-color: aliceblue;
 
+  }
+
+@media screen and (min-width: 650px) {}
+
+@media screen and (min-width: 1000px) {
+  .bus-cards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -6,7 +6,15 @@ header{
     display: none;
     padding: 15px;
 }
-
+nav {
+    display: block;
+}
+.navigation a:nth-child(1){
+    display: block;
+}
+.navigation {
+    grid-column: 6/7;
+}
 .ham{
     display:block;
     text-decoration: none;
@@ -56,6 +64,26 @@ body{
 /* footer code*/
 footer{
     text-align: center;
+}
+.midfooter{
+    display: none;
+}
+.basefooter {
+    display: block;
+}
+.largefooter {
+    display: none;
+}
+.view-buttons{
+    text-align: center;
+}
+.cardb{
+    padding: 10px;
+    
+}
+.listb{
+    padding:10px;
+    
 }
 
 /* Medium (tablet) media query. All styles in here will only apply to tablet views. */
