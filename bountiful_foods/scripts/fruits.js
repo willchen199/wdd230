@@ -26,7 +26,7 @@ const getFruit = async () => {
 
 
         view = document.querySelector("#view");
-        view.style.backgroundColor = "#2B2B2B";
+        view.style.backgroundColor = "#F5DEB3";
 
         document.querySelector("#fresh-main").style.justifyContent = "space-around";
         
