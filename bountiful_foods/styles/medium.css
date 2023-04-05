@@ -36,19 +36,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #2B2B2B;
+        background-color: wheat;
     }
 
     #cont p{
         max-width: 800px;
         padding: 20px;
-        color:#FFD23F;
+        color:black;
     }
 
     #fresh-main {
     
         text-align: center;
-        background-color: #FFD23F;
+        background-color: wheat ;
         display: flex;
         justify-content: center;
         
