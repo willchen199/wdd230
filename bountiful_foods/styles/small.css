@@ -257,14 +257,14 @@ color: black;
 #submitBtn {
 background-color: skyblue;
 margin: 20px auto;
-color: orange;
+color: blue;
 
 }
 
 #view {
 padding: 10px;
 
-color:wheat ;
+color:black ;
 text-align: center;
 background-color: #2B2B2B;
 box-shadow: 1px 1px 10px 5px black;

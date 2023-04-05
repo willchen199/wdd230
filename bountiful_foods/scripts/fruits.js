@@ -179,5 +179,21 @@ const getFruit = async () => {
 
 getFruit();
 
+function count(){
+    if (!localStorage.getItem('numDrinks')){
+    localStorage.setItem('numDrinks', 1);
+    }
+    else{
+        
+        let new_count = localStorage.getItem('numDrinks')+1 
+        localStorage.setItem('numDrinks', new_count);
+        console.log(new_count)
+    
+    }
+   
+    
+}
+document.querySelector("#submitBtn2").addEventListener("click",count);
+
 
 
